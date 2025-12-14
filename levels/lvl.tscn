@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwgreuslwdgh2"]
+
+[ext_resource type="PackedScene" uid="uid://c7iknmnaa1qul" path="res://levels/untitled.tscn" id="1_lyy3w"]
+[ext_resource type="PackedScene" uid="uid://rgbdl51ruw7u" path="res://levels/model.dae" id="2_64yqe"]
+
+[node name="LVL" type="Node3D"]
+
+[node name="Untitled" parent="." instance=ExtResource("1_lyy3w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.01865387, -0.004240036, 0.008856773)
+
+[node name="model" parent="." instance=ExtResource("2_64yqe")]
